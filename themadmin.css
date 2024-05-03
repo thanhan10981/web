@@ -1,0 +1,77 @@
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0 auto;
+            padding: 0;
+            width: 1300px;
+        }
+        
+        .container {
+            max-width: 600px;
+            /* Chiều rộng tối đa của container */
+            margin: 50px auto;
+            /* Canh giữa container */
+            background-color: #fff;
+            /* Màu nền container */
+            padding: 20px;
+            /* Khoảng cách nội dung và viền container */
+            border-radius: 10px;
+            /* Đường cong viền container */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            /* Đổ bóng cho container */
+        }
+        
+        h2 {
+            text-align: center;
+            /* Canh giữa tiêu đề */
+            margin-bottom: 20px;
+            /* Khoảng cách giữa tiêu đề và biểu mẫu */
+        }
+        
+        form {
+            display: flex;
+            /* Hiển thị biểu mẫu theo chiều ngang */
+            flex-direction: column;
+            /* Dạng cột */
+        }
+        
+        label {
+            font-weight: bold;
+            /* In đậm chữ label */
+        }
+        
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        input[type="submit"] {
+            width: 100%;
+            /* Độ rộng 100% */
+            padding: 10px;
+            /* Khoảng cách giữa nội dung và viền input */
+            margin-bottom: 15px;
+            /* Khoảng cách giữa các input */
+            border: 1px solid #ccc;
+            /* Viền input */
+            border-radius: 5px;
+            /* Đường cong viền input */
+            box-sizing: border-box;
+            /* Tính cả border và padding trong kích thước */
+        }
+        
+        input[type="submit"] {
+            background-color: #4CAF50;
+            /* Màu nền nút submit */
+            color: white;
+            /* Màu chữ nút submit */
+            border: none;
+            /* Loại bỏ border */
+            cursor: pointer;
+            /* Con trỏ chuột thành dấu nhấp */
+            transition: background-color 0.3s;
+            /* Hiệu ứng chuyển đổi màu nền */
+        }
+        
+        input[type="submit"]:hover {
+            background-color: #45a049;
+            /* Màu nền khi di chuột qua */
+        }
